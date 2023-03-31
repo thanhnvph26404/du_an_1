@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "../duan1.2/admin"
+		},
+		{
+			"path": "../duan1.2/model"
+		},
+		{
+			"path": "../duan1.2/upload"
+		},
+		{
+			"path": "../duan1.2/view"
+		}
+	]
+}

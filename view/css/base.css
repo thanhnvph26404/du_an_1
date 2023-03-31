@@ -1,0 +1,59 @@
+:root{
+    --text-color: #333;
+    --primary-color: #F3E385;
+    --white-color: #fff;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+    color: #777;
+    
+}
+html{
+font-size: 62.5%;
+line-height: 1.6rem;
+box-sizing: border-box;
+font-family: 'Roboto', sans-serif;
+}
+
+@font-face {
+    font-family: uppercase;
+    src: url(../fonts/BerkshireSwash-Regular.ttf);
+}
+
+.button-link{
+    display: block;
+    line-height: 38px;
+    border: 2px solid #777;
+    border-radius: 5px;
+    text-decoration: none!important;
+    font-size: 1.6rem;
+    height: 38px;
+    padding: 0 16px;
+    max-width: 136px;
+    font-weight: 600;
+    color: #777;
+}
+
+.icon-button{
+    margin-right: 8px;
+}
+.button-link-menu:hover{
+    background-color: #fff;
+    border-color: #fff;
+    color: #777;
+}
+
+.button-link-white:hover{
+    border-color: #777;
+    opacity: .8;
+    
+}
+.menu-mt{
+    margin-top: 30px;
+    
+}
+.hide{
+    display: none;
+}
